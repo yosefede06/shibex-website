@@ -1,0 +1,12 @@
+.shiba_logo {
+  width: 2.5em;
+  height: 2.5em;
+}
+.navbarColor {
+  background-color: var(--whiteColor);
+}
+.nav-item .navLinkColor {
+  color: var(--blackColor);
+  font-family: var(--gameFont);
+  display: flex;
+}

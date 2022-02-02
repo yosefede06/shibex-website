@@ -1,0 +1,62 @@
+.layout-caption {
+  font-size: 1.8em;
+  font-family: var(--gameFont);
+  text-shadow: 0 0 15px var(--goldColor), 0 0 10px var(--goldColor);
+  text-align: center;
+  margin: 70px;
+}
+
+.button-layout {
+  position: relative;
+  bottom: 170px;
+  /*   margin: -90px;
+ */
+  z-index: 10;
+  text-align: center;
+}
+
+.innerBtns {
+  color: var(--goldColor) !important;
+  width: 20em;
+  font-weight: bold !important;
+  padding: 1.2em !important;
+}
+.img-mobile {
+  display: none;
+}
+@media screen and (max-width: 1230px) {
+  .layout-caption {
+    font-size: 1.8em;
+  }
+}
+@media screen and (max-width: 970px) {
+  .layout-caption {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .layout-caption {
+    font-size: 1.1em;
+    width: 350px;
+    margin-inline-start: -10px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .button-layout .innerBtns {
+    width: 10em !important;
+  }
+  .layout-caption {
+    margin-inline-start: -30px;
+  }
+  .img-desktop {
+    display: none;
+  }
+  .img-mobile {
+    display: block;
+  }
+}
+/* 
+@media screen and (max-width: 1230px) {
+  .layout-caption:
+} */
