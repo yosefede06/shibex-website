@@ -56,7 +56,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 # WebSite Link
 
-comming soon...
+[www.shibex.game](www.shibex.game)
 
 
 ### Developement Team
