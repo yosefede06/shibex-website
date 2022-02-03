@@ -217,4 +217,26 @@
     max-width: 180px;
     margin-bottom: 10px;
   }
+
+  .custom-shape-divider-top-mobile svg {
+    position: relative;
+    display: block;
+    width: calc(113% + 1.3px);
+    height: 78px;
+  }
+  .custom-shape-divider-top-desktop {
+    display: none;
+  }
+  .custom-shape-divider-top-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-top-mobile .shape-fill {
+    fill: var(--blackColor);
+  }
 }

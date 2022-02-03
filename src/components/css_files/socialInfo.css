@@ -44,11 +44,12 @@
 @media only screen and (max-width: 576px) and (min-width: 350px) {
   .img-wrapper .shiba {
     position: relative;
-    width: 22em;
-    right: 7.5em;
-    bottom: 0.8em;
+    width: 18em;
+    right: 6.6em;
+    bottom: 1.2em;
     z-index: 10;
   }
+
   .btn-wrapper .socialBtn {
     padding: 0.9em;
     position: relative;

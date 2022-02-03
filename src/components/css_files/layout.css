@@ -37,19 +37,19 @@
 @media screen and (max-width: 767px) {
   .layout-caption {
     font-size: 1.1em;
-    width: 350px;
+    width: 300px;
     margin-inline-start: -10px;
   }
 }
 @media screen and (max-width: 450px) {
   .button-layout .innerBtns {
     width: 10em !important;
-    /* margin-bottom: 300px !important; */
+
     margin-bottom: 100px !important;
   }
   .layout-caption {
     margin-bottom: 200px !important;
-    margin-inline-start: -30px;
+    margin-inline-start: -35px;
   }
   .img-desktop {
     display: none;
@@ -61,7 +61,3 @@
     height: 80vh;
   }
 }
-/* 
-@media screen and (max-width: 1230px) {
-  .layout-caption:
-} */

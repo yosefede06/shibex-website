@@ -41,6 +41,7 @@ const Testimonials = () => {
         className="testimonial-section d-flex align-items-center "
         style={{ position: 'relative' }}
       >
+        {/* desktop */}
         <div className="custom-shape-divider-top-desktop">
           <svg
             data-name="Layer 1"
@@ -64,6 +65,7 @@ const Testimonials = () => {
             ></path>
           </svg>
         </div>
+        {/* mobile */}
         <div className="custom-shape-divider-top-mobile">
           <svg
             data-name="Layer 1"
@@ -95,7 +97,7 @@ const Testimonials = () => {
             The Shibex Team
           </motion.h1>
           <div
-            className="row align-items-center  testimonials-row  "
+            className="row align-items-center testimonials-row  "
             data-bs-interval={3000}
           >
             <div className="col-md-6 col-6 testi-img ">

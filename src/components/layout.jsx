@@ -19,7 +19,7 @@ const Layout = () => {
           animate={{ opacity: 1, transition: { duration: 2 } }}
           src={imgLayout2}
           alt="layoutImg"
-          className="img-fluid img-mobile"
+          className="img img-mobile"
           style={{ width: '100vw', height: '87vh' }}
         />
         <div className="carousel-caption layout-caption">
