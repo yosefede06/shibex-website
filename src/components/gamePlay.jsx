@@ -64,7 +64,7 @@ const GamePlay = () => {
             <div className="col-12 col-sm-4  video-container ">
               <iframe
                 className="video"
-                src="https://www.youtube.com/embed/mNea_RSx0CM"
+                src="https://www.youtube.com/embed/nVIw_b1CQNA?&autoplay=1&mute=1"
                 title="Shibex Ride GamePlay"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
