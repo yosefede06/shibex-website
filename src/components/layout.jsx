@@ -20,7 +20,7 @@ const Layout = () => {
           src={imgLayout2}
           alt="layoutImg"
           className="img-fluid img-mobile"
-          style={{ width: '100vw', height: '101vh' }}
+          style={{ width: '100vw', height: '87vh' }}
         />
         <div className="carousel-caption layout-caption">
           <p className=" fw-bolder text-capitalize">

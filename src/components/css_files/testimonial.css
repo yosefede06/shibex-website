@@ -87,6 +87,9 @@
 .custom-shape-divider-top-desktop .shape-fill {
   fill: var(--blackColor);
 }
+#myCarousel {
+  pointer-events: none;
+}
 
 /* ****************************************************** */
 
@@ -159,12 +162,6 @@
     fill: var(--blackColor);
   }
 }
-/* 
-
-@media (max-width: 575px) {
-
-
-} */
 
 @media only screen and (min-width: 470px) and (max-width: 575px) {
   .testimonials-row {
@@ -195,8 +192,8 @@
 }
 @media only screen and (min-width: 350px) and (max-width: 469px) {
   .testi-header {
-    margin-bottom: 2.5em;
-    font-size: 2em;
+    margin-bottom: 2em;
+    font-size: 2.5em;
   }
   .testimonials-row {
     display: flex;
@@ -210,13 +207,14 @@
   }
 
   .testi-img .circle {
-    height: 160px;
-    width: 160px;
+    height: 240px;
+    width: 240px;
+    margin-left: -25px;
     margin-bottom: 10px;
   }
 
   .testi-img .img-box-inner img {
-    max-width: 140px;
+    max-width: 180px;
     margin-bottom: 10px;
   }
 }

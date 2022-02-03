@@ -9,8 +9,7 @@
 .button-layout {
   position: relative;
   bottom: 170px;
-  /*   margin: -90px;
- */
+
   z-index: 10;
   text-align: center;
 }
@@ -42,11 +41,14 @@
     margin-inline-start: -10px;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
   .button-layout .innerBtns {
     width: 10em !important;
+    /* margin-bottom: 300px !important; */
+    margin-bottom: 100px !important;
   }
   .layout-caption {
+    margin-bottom: 200px !important;
     margin-inline-start: -30px;
   }
   .img-desktop {
@@ -54,6 +56,9 @@
   }
   .img-mobile {
     display: block;
+  }
+  .layoutContainer {
+    height: 80vh;
   }
 }
 /* 
