@@ -43,57 +43,58 @@ const GamePlay = () => {
   }, [inView, animation2]);
 
   return (
-    <>
-      <section className="gamePlay-cont">
-        <div className="container mt-3 gamePlay-container align-center">
-          <div className="row">
-            <div className="col-12">
-              <div className="header" ref={ref}>
-                <motion.h1
-                  className="text-center display-1 gameplayHeader mb-3 mt-5"
-                  animate={animation2}
-                >
-                  The Shibex Games
-                </motion.h1>
+      <>
+        <section className="gamePlay-cont">
+          <div className="container mt-3 gamePlay-container align-center">
+            <div className="row">
+              <div className="col-12">
+                <div className="header" ref={ref}>
+                  <motion.h1
+                      className="text-center display-1 gameplayHeader mb-3 mt-5"
+                      animate={animation2}
+                  >
+                    The Shibex Games
+                  </motion.h1>
+                </div>
               </div>
             </div>
-          </div>
-          <br />
-          <br />
-          <div className="row ">
-            <div className="col-12 col-sm-4  video-container ">
-              <iframe
-                className="video"
-                src="https://www.youtube.com/embed/nVIw_b1CQNA?&autoplay=1&mute=1"
-                title="Shibex Ride GamePlay"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+            <br />
+            <br />
+            <div className="row ">
+              <div className="col-12 col-sm-4  video-container ">
+                <iframe
+                    className="video"
+                    // src="https://www.youtube.com/embed/nVIw_b1CQNA?&autoplay=1&mute=1&loop=1&controls=0"
+                    src="https://www.youtube.com/embed/nVIw_b1CQNA?&controls=0"
+                    title="Shibex Ride GamePlay"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
+              </div>
             </div>
-          </div>
-          <div className="row text-center">
-            <div className="col-12 buttonWrapper mt-5" ref={ref}>
-              <motion.button
-                className="platBtn btn-lg rounded-pill"
-                animate={animation}
-              >
-                <a
-                  href="https://shibex-soldiers.web.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-dark"
-                  style={{ textDecoration: 'none' }}
+            <div className="row text-center">
+              <div className="col-12 buttonWrapper mt-5" ref={ref}>
+                <motion.button
+                    className="platBtn btn-lg rounded-pill"
+                    animate={animation}
                 >
-                  <strong className="innerBtn">Let's Play</strong>
-                </a>
-              </motion.button>
+                  <a
+                      href="https://shibex-soldiers.web.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-dark"
+                      style={{ textDecoration: 'none' }}
+                  >
+                    <strong className="innerBtn">Let's Play</strong>
+                  </a>
+                </motion.button>
+              </div>
             </div>
+            <br />
+            <br />
           </div>
-          <br />
-          <br />
-        </div>
-      </section>
-    </>
+        </section>
+      </>
   );
 };
 
