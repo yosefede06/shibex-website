@@ -52,7 +52,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <motion.a
                     className="nav-link navLinkColor fw-bold fs-4"
-                    href="https://swap.mimo.exchange/#/swap?inputCurrency=0x838403e073a79719a0927a16642ca7dcdc642bd5"
+                    href="https://app.uniswap.org/#/swap?exactField=input&exactAmount=10&inputCurrency=0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0&outputCurrency=0xe04e81331bdcbfbf2d1342714812d546a55cb6dc"
                     whileHover={{
                       color: 'var(--goldColor)',
                     }}

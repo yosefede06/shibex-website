@@ -14,13 +14,11 @@ class ShibexChart extends Component {
     render() {
         return (
             <>
-
-
                 <div className="chartWrapper">
                     <div
                         className="nomics-ticker-widget chart"
-                        data-name="Shibex"
-                        data-base="SHIBX3"
+                        data-name="Shibex (Polygon)"
+                        data-base="SHIBXPOS"
                         data-quote="USD"
                     ></div>
                 </div>
